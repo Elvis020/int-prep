@@ -11,7 +11,7 @@ const levels: Array<ExerciseLevel | "All"> = [
 ];
 
 function editorLink(filePath: string) {
-  return `vscode://file${encodeURI(filePath)}`;
+  return `/api/open-in-vscode?path=${encodeURIComponent(filePath)}`;
 }
 
 function Details({ exercise }: { exercise: Exercise }) {

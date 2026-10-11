@@ -19,7 +19,7 @@ export const exercises: Exercise[] = [
     level: "Warm-up",
     duration: "20 min",
     title: "Type Detective",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/01-type-detective.ts",
+    filePath: "exercises/01-type-detective.ts",
     concept: "Primitives, arrays, objects, unions, and literal types",
     brief: "Model a candidate's interview preferences without using any. Make invalid choices impossible.",
     todos: [
@@ -39,7 +39,7 @@ export const exercises: Exercise[] = [
     level: "Warm-up",
     duration: "25 min",
     title: "The Unknown Caller",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/02-the-unknown-caller.ts",
+    filePath: "exercises/02-the-unknown-caller.ts",
     concept: "unknown, type guards, narrowing, optional properties",
     brief: "An API gives you unknown JSON. Safely turn it into a display name or a helpful fallback.",
     todos: [
@@ -59,7 +59,7 @@ export const exercises: Exercise[] = [
     level: "Build",
     duration: "35 min",
     title: "Scoreboard Math",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/03-scoreboard-math.ts",
+    filePath: "exercises/03-scoreboard-math.ts",
     concept: "Functions, generics, readonly data, map/reduce",
     brief: "Build a typed score calculator for a list of practice attempts.",
     todos: [
@@ -79,7 +79,7 @@ export const exercises: Exercise[] = [
     level: "Build",
     duration: "45 min",
     title: "Props With a Purpose",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/04-question-card.tsx",
+    filePath: "exercises/04-question-card.tsx",
     concept: "React props, discriminated unions, component composition",
     brief: "Create a QuestionCard component that renders multiple-choice and free-text questions safely.",
     todos: [
@@ -99,7 +99,7 @@ export const exercises: Exercise[] = [
     level: "Build",
     duration: "50 min",
     title: "Route Runner",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/05-route-runner.md",
+    filePath: "exercises/05-route-runner.md",
     concept: "App Router, dynamic routes, params, loading and not-found states",
     brief: "Turn the exercise list into real /exercises/[id] pages.",
     todos: [
@@ -119,7 +119,7 @@ export const exercises: Exercise[] = [
     level: "Interview",
     duration: "60 min",
     title: "Server / Client Border Patrol",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/06-server-client-boundary.md",
+    filePath: "exercises/06-server-client-boundary.md",
     concept: "Server Components, Client Components, data fetching, state",
     brief: "Add a completion toggle and a server-rendered progress summary without blurring the boundary.",
     todos: [
@@ -139,7 +139,7 @@ export const exercises: Exercise[] = [
     level: "Interview",
     duration: "75 min",
     title: "The Monday Mock",
-    filePath: "/Users/TT/Documents/personal/prep_for_int/exercises/07-monday-mock.md",
+    filePath: "exercises/07-monday-mock.md",
     concept: "End-to-end reasoning, debugging, performance, testing",
     brief: "Build a filtered exercise dashboard, then explain the tradeoffs aloud as if you were in the interview.",
     todos: [

@@ -11,7 +11,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000). Pick a mission, open its matching file in [`exercises/`](./exercises), implement the TODOs, and mark it cleared only after you can explain it.
 
-Each mission has an **Open in VS Code** button. It uses the local `vscode://file/...` link supported by the desktop version of VS Code to open that exact starter file.
+Each mission has an **Open in VS Code** button. When you run the app locally, it resolves the exercise path from that clone's working directory and opens it in the installed desktop version of VS Code. It never uses the original author's file path.
 
 ## Suggested run-up to Monday
 
